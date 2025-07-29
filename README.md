@@ -1,12 +1,36 @@
-# React + Vite
+--Getting Started-- These instructions will help you run the frontend locally on your machine.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+--Prerequisites-- Node.js (v16 or newer)
 
-Currently, two official plugins are available:
+npm (Node Package Manager)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+--Installation--
 
-## Expanding the ESLint configuration
+1. Clone the repository:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+(in gitbash)
+
+git clone https://github.com/nilesclancy/script-aid-client-nc.git [or use the ssh url]
+cd script-aid-client-nc
+
+2. Install dependencies:
+
+(in gitbash)
+
+npm install
+
+3. Start the development server:
+
+(in gitbash)
+
+npm run dev The app should now be running at http://localhost:5173
+
+--Features-- Register and login with token-based authentication
+
+Upload transcripts with titles and content
+
+Search transcripts by title
+
+Parse transcripts by keyword with context lines
+
+View matching evidence and export results
